@@ -24,8 +24,8 @@ def draw_square():
     brad.shape("turtle")
     brad.speed("10")
 
-    turns = [0,1,2,3]
-    for t in turns:
+
+    for t in [0,1,2,3]
         brad.forward(100)
         brad.right(90)
         draw_circle()
