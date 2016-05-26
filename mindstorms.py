@@ -5,12 +5,13 @@ def draw_circle():
     angie.shape("arrow")
     angie.color("blue")
     angie.circle(100)
-    angie.speed("3")
+    angie.speed("10")
 
 def draw_triangle():
     tracey = turtle.Turtle()
     tracey.color("red")
     tracey.shape("turtle")
+    tracey.speed("10")
 
     for i in [0,1,2]:
         tracey.left(120)
