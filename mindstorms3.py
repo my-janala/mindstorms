@@ -14,14 +14,10 @@ def draw_art():
     brad.color("yellow")
     brad.shape("turtle")
     brad.speed("2")
-    draw_square(brad)
-    # create square angie
-    angie = turtle.Turtle()
-    angie.shape("arrow")
-    angie.speed(5)
-    angie.color("blue")
-    angie.circle(100)
-
+    for i in range(1,37):
+        draw_square(brad)
+        brad.right(10)
+    
     window.exitonclick()
 
 draw_art()
