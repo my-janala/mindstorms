@@ -13,7 +13,7 @@ def draw_triangle():
     tracey.shape("turtle")
     tracey.speed("10")
 
-    for i in [0,1,2]:
+    for i in range(0,3):
         tracey.left(120)
         tracey.forward(175)
 
@@ -26,7 +26,7 @@ def draw_square():
     brad.speed("10")
 
 
-    for t in [0,1,2,3]:
+    for t in range(0,4):
         brad.forward(100)
         brad.right(90)
         draw_circle()
